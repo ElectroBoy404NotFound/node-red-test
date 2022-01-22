@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "3854b4ae44308069",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "ebcccfcdb0e4d77e",
         "type": "rpi-gpio in",
         "z": "3f079945db19df27",
