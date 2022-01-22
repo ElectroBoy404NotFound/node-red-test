@@ -1,1 +1,65 @@
-[]
+[
+    {
+        "id": "3f079945db19df27",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ebcccfcdb0e4d77e",
+        "type": "rpi-gpio in",
+        "z": "3f079945db19df27",
+        "name": "",
+        "pin": "9",
+        "intype": "tri",
+        "debounce": "25",
+        "read": false,
+        "bcm": true,
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "404161c3359a6b8f"
+            ]
+        ]
+    },
+    {
+        "id": "404161c3359a6b8f",
+        "type": "file",
+        "z": "3f079945db19df27",
+        "name": "",
+        "filename": "",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "66c1223ba1a6d991"
+            ]
+        ]
+    },
+    {
+        "id": "66c1223ba1a6d991",
+        "type": "file in",
+        "z": "3f079945db19df27",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 510,
+        "y": 320,
+        "wires": [
+            [
+                "404161c3359a6b8f"
+            ]
+        ]
+    }
+]
